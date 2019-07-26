@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+  adminpanel:
+    build: .
+    ports:
+    - 8100:80
+    networks:
+    - esnet
+
+networks:
+  esnet:
+    driver: overlay
