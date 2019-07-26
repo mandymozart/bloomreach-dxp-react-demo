@@ -1,0 +1,5 @@
+definitions:
+  namespace:
+    reactdemo:
+      uri: http://www.reactdemo.com/reactdemo/nt/1.0
+      cnd: namespaces/react-demo.cnd

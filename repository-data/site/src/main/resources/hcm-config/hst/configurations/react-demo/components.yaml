@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/reactdemo/hst:components:
+      jcr:primaryType: hst:components

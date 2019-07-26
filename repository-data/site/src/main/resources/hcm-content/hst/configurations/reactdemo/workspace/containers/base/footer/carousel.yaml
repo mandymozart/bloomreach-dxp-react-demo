@@ -1,0 +1,11 @@
+/hst:hst/hst:configurations/reactdemo/hst:workspace/hst:containers/base/footer/carousel:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsCarouselComponent
+  hst:iconpath: images/essentials/catalog-component-icons/carousel.svg
+  hst:label: Carousel
+  hst:parameternames: [document4, document3, document6, document5, document2, document1,
+    cycle, pause, carouselWidth, carouselHeight, carouselBackgroundColor, showNavigation,
+    interval]
+  hst:parametervalues: ['', '', '', '', news/2019/07/the-gastropoda-news, news/2019/07/the-medusa-news,
+    'on', 'on', '700', '250', '#FFFFFF', 'on', '3000']
+  hst:template: essentials-carousel

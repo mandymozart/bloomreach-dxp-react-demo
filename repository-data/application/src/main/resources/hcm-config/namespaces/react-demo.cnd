@@ -1,0 +1,18 @@
+<'reactdemo'='http://www.reactdemo.com/reactdemo/nt/1.0'>
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
+<'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
+<'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+
+[reactdemo:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[reactdemo:bannerdocument] > hippostd:relaxed, hippotranslation:translated, reactdemo:basedocument
+  orderable
+
+[reactdemo:eventsdocument] > hippostd:relaxed, hippotranslation:translated, reactdemo:basedocument
+  orderable
+
+[reactdemo:newsdocument] > hippostd:relaxed, hippotranslation:translated, reactdemo:basedocument
+  orderable
+

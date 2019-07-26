@@ -1,0 +1,144 @@
+/content/documents/reactdemo/events:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 227ef3cc-eec1-47a9-b0be-830ac2070279
+  hippostd:foldertype: [new-events-document, new-events-folder]
+  hippotranslation:id: d9d71b65-878f-4e29-be9e-290f251c3f88
+  hippotranslation:locale: en
+  /2019:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: 034ac4fa-daa6-4e00-9d05-384f3a93915a
+    hippostd:foldertype: [new-events-document, new-events-folder]
+    hippotranslation:id: 695888d5-6a05-4116-a059-5fc1bb5824db
+    hippotranslation:locale: en
+    /07:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: a7ac914d-603a-4780-b86e-34ebf242e52f
+      hippostd:foldertype: [new-events-document, new-events-folder]
+      hippotranslation:id: 9a380a9f-4bc4-430f-bc0c-7997f5ca619d
+      hippotranslation:locale: en
+      /breakfast:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: b8f5eb45-7200-452a-b26e-3118a0dc60b8
+        hippo:name: Breakfast
+        /breakfast:
+          jcr:primaryType: reactdemo:eventsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 90c66090-2631-4f56-8941-1a7970b1315e
+          hippo:availability: [live, preview]
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T11:00:00+01:00
+          hippostdpubwf:lastModificationDate: 2013-11-12T11:11:00+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2013-11-12T12:16:00+01:00
+          hippotranslation:id: 2eb0b989-d65c-440c-adf7-e1a002672985
+          hippotranslation:locale: en
+          reactdemo:date: 2013-11-12T08:00:00+01:00
+          reactdemo:documenttype: event
+          reactdemo:enddate: 2020-07-26T12:40:00+02:00
+          reactdemo:introduction: Start the day with a nice breakfast.
+          reactdemo:location: Room 101
+          reactdemo:title: Breakfast
+          /reactdemo:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Breakfast is served starting from 8:00 until 9:30.</p>
+
+                        </body>
+                        </html>
+          /reactdemo:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: c8f03498-56eb-46c9-83b2-cf014f2e03d7
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /introduction-speech:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 18e36c35-429d-4fee-b76e-eeabcbfc08bb
+        hippo:name: Introduction speech
+        /introduction-speech:
+          jcr:primaryType: reactdemo:eventsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: a65c75ba-8847-474d-8b58-7b79cdcf6c50
+          hippo:availability: [live, preview]
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T11:02:00+01:00
+          hippostdpubwf:lastModificationDate: 2013-11-12T11:16:00+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2013-11-12T12:16:00+01:00
+          hippotranslation:id: e3650332-19c7-4d69-a848-54147ebe872f
+          hippotranslation:locale: en
+          reactdemo:date: 2013-11-12T10:00:00+01:00
+          reactdemo:documenttype: event
+          reactdemo:enddate: 2020-07-26T12:40:00+02:00
+          reactdemo:introduction: After breakfast there will be an introductory speech.
+          reactdemo:location: Room 400
+          reactdemo:title: Introduction speech
+          /reactdemo:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Speech will be about the workshop.</p>
+
+                        </body>
+                        </html>
+          /reactdemo:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 9f32434e-84e3-4150-a6f2-d89a67be2fb1
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /workshop:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 7a29ec60-2689-48b2-aca2-49696c5c23eb
+        /workshop:
+          jcr:primaryType: reactdemo:eventsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: e33c354e-8cd7-4bda-a84c-00d746d67e08
+          hippo:availability: [live, preview]
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T11:16:00+01:00
+          hippostdpubwf:lastModificationDate: 2013-11-12T11:18:00+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2013-11-12T12:16:00+01:00
+          hippotranslation:id: 66e17b3a-3807-42fe-9a42-29294b3371f6
+          hippotranslation:locale: en
+          reactdemo:date: 2013-11-12T13:00:00+01:00
+          reactdemo:documenttype: event
+          reactdemo:enddate: 2020-07-26T12:40:00+02:00
+          reactdemo:introduction: Workshop starts at 1:00
+          reactdemo:location: Room 600
+          reactdemo:title: Workshop
+          /reactdemo:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+                        <strong>Everybody </strong>
+                        <p>can join the workshop and start practicing what they learned during the last
+                        week.</p>
+
+                        </body>
+                        </html>
+          /reactdemo:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: d035387b-f9ce-49f6-bcb0-9ab6915a2d5f
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []

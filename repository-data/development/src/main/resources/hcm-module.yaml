@@ -1,0 +1,7 @@
+group: 
+  name: react-demo
+  after: hippo-cms
+project: react-demo
+module: 
+  name: react-demo-repository-data-development
+  after: react-demo-repository-data-application

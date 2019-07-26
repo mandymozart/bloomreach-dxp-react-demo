@@ -1,0 +1,6 @@
+site: react-demo
+group: react-demo
+project: react-demo
+module:
+  name: react-demo-repository-data-site-development
+  after: react-demo-repository-data-site

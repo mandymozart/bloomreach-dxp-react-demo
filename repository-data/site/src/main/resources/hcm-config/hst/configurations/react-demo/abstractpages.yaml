@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/reactdemo/hst:abstractpages:
+      jcr:primaryType: hst:pages

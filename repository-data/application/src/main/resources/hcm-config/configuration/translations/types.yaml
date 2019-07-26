@@ -1,0 +1,120 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/reactdemo:bannerdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        reactdemo:content: Content
+        reactdemo:image: Image
+        reactdemo:link: Link
+        reactdemo:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        reactdemo:content: Inhoud
+        reactdemo:image: Afbeelding
+        reactdemo:link: Link
+        reactdemo:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Bannière
+        reactdemo:content: Contenu
+        reactdemo:image: Image
+        reactdemo:link: Lien
+        reactdemo:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        reactdemo:content: Inhalt
+        reactdemo:image: Abbildung
+        reactdemo:link: Link
+        reactdemo:title: Titel
+    /hippo:configuration/hippo:translations/hippo:types/reactdemo:newsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: News Item
+        reactdemo:author: Author
+        reactdemo:content: Content
+        reactdemo:date: Date
+        reactdemo:image: Image
+        reactdemo:introduction: Introduction
+        reactdemo:location: Location
+        reactdemo:source: Source
+        reactdemo:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Nieuwsbericht
+        reactdemo:author: Auteur
+        reactdemo:content: Inhoud
+        reactdemo:date: Datum
+        reactdemo:image: Afbeelding
+        reactdemo:introduction: Introductie
+        reactdemo:location: Locatie
+        reactdemo:source: Bron
+        reactdemo:title: Titel
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: News
+        reactdemo:author: Verfasser
+        reactdemo:content: Inhalt
+        reactdemo:date: Datum
+        reactdemo:image: Abbildung
+        reactdemo:introduction: Einführung
+        reactdemo:location: Standort
+        reactdemo:source: Quelle
+        reactdemo:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Message d'info
+        reactdemo:author: Auteur
+        reactdemo:content: Contenu
+        reactdemo:date: Date
+        reactdemo:image: Image
+        reactdemo:introduction: Introduction
+        reactdemo:location: Lieu
+        reactdemo:source: Source
+        reactdemo:title: Titre
+    /hippo:configuration/hippo:translations/hippo:types/reactdemo:eventsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Event
+        reactdemo:content: Content
+        reactdemo:date: Start date
+        reactdemo:enddate: End date
+        reactdemo:image: Image
+        reactdemo:introduction: Introduction
+        reactdemo:location: Location
+        reactdemo:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Evenement
+        reactdemo:content: Inhoud
+        reactdemo:date: Startdatum
+        reactdemo:enddate: Einddatum
+        reactdemo:image: Afbeelding
+        reactdemo:introduction: Introductie
+        reactdemo:location: Locatie
+        reactdemo:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Événement
+        reactdemo:content: Contenu
+        reactdemo:date: Date de début
+        reactdemo:enddate: Date de fin
+        reactdemo:image: Image
+        reactdemo:introduction: Introduction
+        reactdemo:location: Lieu
+        reactdemo:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Event
+        reactdemo:content: Inhalt
+        reactdemo:date: Startdatum
+        reactdemo:enddate: Enddatum
+        reactdemo:image: Abbildung
+        reactdemo:introduction: Einführung
+        reactdemo:location: Standort
+        reactdemo:title: Titel

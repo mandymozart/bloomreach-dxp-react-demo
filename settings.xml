@@ -1,0 +1,25 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                      https://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <servers>
+        <server>
+            <id>hippo-maven2-enterprise</id>
+            <username>tporschuetz</username>
+            <password>i5t4j3e2s9</password>
+        </server>
+        <server>
+            <id>jenkins</id>
+            <username>maven</username>
+            <password>ee738b65280879e479805250488903a8</password>
+            <configuration>
+                <httpConfiguration>
+                    <all>
+                        <usePreemptive>true</usePreemptive>
+                    </all>
+                </httpConfiguration>
+            </configuration>
+        </server>
+    </servers>
+
+</settings>
