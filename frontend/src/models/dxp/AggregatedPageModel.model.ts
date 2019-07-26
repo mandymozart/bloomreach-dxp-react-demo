@@ -4,7 +4,7 @@ import IComponentWindowModel from "./ComponentWindowModel.model";
 /**
  * This defines the root level object in Page Model JSON API responses.
  */
-type IAggregatedPageModelParams = {
+type IAggregatedPageModelJSON = {
     /**
      * The reference namespace ID of the root page component.
      */
@@ -44,10 +44,10 @@ export default class IAggregatedPageModel {
     links?: Map<string, LinkModel> | null;
     page: IComponentWindowModel | null;
 
-    constructor(params: IAggregatedPageModelParams){
-        this.id = params.id;
-        this.meta = (params._meta) ? params._meta : null;
-        this.page = (params.page) ? this.decodeIComponentWindowModel(params.page) : null;
+    constructor(json: IAggregatedPageModelJSON){
+        this.id = json.id;
+        this.meta = (json._meta) ? json._meta : null;
+        this.page = (json.page) ? this.decodeIComponentWindowModel(json.page) : null;
 
     }
 
@@ -55,7 +55,7 @@ export default class IAggregatedPageModel {
      * TODO: Decode JSON to actual component instances via http://choly.ca/post/typescript-json/
      * @param component
      */
-    public decodeIComponentWindowModel(component: IComponentWindowModelParams): IComponentWindowModel {
+    public decodeIComponentWindowModel(component: IComponentWindowModelJSON): IComponentWindowModel {
         let componentInstance = new IComponentWindowModel();
         return componentInstance;
     };

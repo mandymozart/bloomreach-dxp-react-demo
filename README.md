@@ -11,7 +11,9 @@ Logs are located in target/tomcat9x/logs
 
 Starting the React Single Page Application
 ==========================================
+
+The SPA is delivered via http://localhost:8081
     
-    cd spa
+    cd frontend
     yarn install
-    yarn start
+    yarn serve
