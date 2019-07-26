@@ -4,7 +4,7 @@ import { LinkModel } from "./LinkModel.model";
  * This defines either a page component (which is a composite representation of HST Component Configurations)
  * or a single descendant HstComponent resource representation.
  */
-export type ComponentWindowModel = {
+type IComponentWindowModelParams = {
 
     /**
      * The reference namespace ID of the component.
@@ -58,11 +58,17 @@ export type ComponentWindowModel = {
 
     /**
      * Array containing child component representations, each of which contains data in the same structure of
-     * ComponentWindowModel, recursively.
+     * IComponentWindowModel, recursively.
      */
 
-    components?: ComponentWindowModel[]
+    components?: IComponentWindowModel[]
 
     models?: Map<string, JSON>
 
 };
+
+export default class IComponentWindowModel {
+    constructor(params: IComponentWindowModelParams){
+
+    }
+}

@@ -1,9 +1,10 @@
 import { LinkModel } from "./LinkModel.model";
+import IComponentWindowModel from "./ComponentWindowModel.model";
 
 /**
  * This defines the root level object in Page Model JSON API responses.
  */
-export type AggregatedPageModel = {
+type IAggregatedPageModelParams = {
     /**
      * The reference namespace ID of the root page component.
      */
@@ -21,7 +22,7 @@ export type AggregatedPageModel = {
 
     /**
      * The page representation in JSON. This representation follows the same structure as the HST component
-     * configuration (ComponentWindowModel) for a page.
+     * configuration (IComponentWindowModel) for a page.
      */
     page: JSON
 
@@ -34,4 +35,28 @@ export type AggregatedPageModel = {
      */
     content: Map<string, JSON>
 
+}
+
+export default class IAggregatedPageModel {
+
+    id: string;
+    meta?: Map<string, any> | null;
+    links?: Map<string, LinkModel> | null;
+    page: IComponentWindowModel | null;
+
+    constructor(params: IAggregatedPageModelParams){
+        this.id = params.id;
+        this.meta = (params._meta) ? params._meta : null;
+        this.page = (params.page) ? this.decodeIComponentWindowModel(params.page) : null;
+
+    }
+
+    /**
+     * TODO: Decode JSON to actual component instances via http://choly.ca/post/typescript-json/
+     * @param component
+     */
+    public decodeIComponentWindowModel(component: IComponentWindowModelParams): IComponentWindowModel {
+        let componentInstance = new IComponentWindowModel();
+        return componentInstance;
+    };
 }

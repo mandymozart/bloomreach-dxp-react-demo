@@ -1,5 +1,5 @@
 import { AggregatedPageModel } from '../models/dxp/AggregatedPageModel.model';
-import { ComponentWindowModel } from '../models/dxp/ComponentWindowModel.model';
+import { IComponentWindowModel } from '../models/dxp/ComponentWindowModel.model';
 
 import { ApiResult } from '../models/Api.model';
 import RequestBodyModel from '../models/RequestBody.model';
@@ -58,7 +58,7 @@ export default class ResourceApiService {
     }
 
     /**
-     * Gets an individual ComponentWindowModel
+     * Gets an individual IComponentWindowModel
      *
      * @param pathInfo
      * @param previewPrefix
